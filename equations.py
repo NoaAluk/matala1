@@ -42,23 +42,6 @@ def XtimesY(x:float,y:float):
         return 0
     elif x<0 and y==0:
         return 1
-    else: 
-        if y>0:
-            i=1
-            z1=1
-            while i<=y:
-                z=z1*x
-                z1=z
-                i+=1
-            return z1
-        if y<0:
-            i=1
-            z1=1
-            while i<=(-y):
-                z=z1*x
-                z1=z
-                i+=1
-            return 1/z1
   
 
 def sqrt(x:float,y:float):
