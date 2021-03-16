@@ -9,7 +9,6 @@ def ln(x:float):
         i+=1
     return yn1
 
-print(ln(x))
 
 def exponent(x:float):
     if x!=0:
@@ -31,7 +30,6 @@ def exponent(x:float):
     else:
         return 1
 
-print(exponent(x))
 
 def XtimesY(x:float,y:float):
     if x>0:
@@ -62,7 +60,6 @@ def XtimesY(x:float,y:float):
             return 1/z1
 
 
-print(XtimesY(x,y))
   
 def sqrt(x:float,y:float):
     if y>=0 and x!=0:
@@ -73,9 +70,8 @@ def sqrt(x:float,y:float):
         return 0
 
 
-print(sqrt(x,y))
+
 
 def calculate(x:float):
     return exponent(x)*XtimesY(7,x)*XtimesY(x,-1)*sqrt(x,x)
-x=input("number of x:") 
-print(calculate(x))
+
