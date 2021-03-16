@@ -1,4 +1,4 @@
-
+ 
 
 def ln(x:float):
     yn=0
@@ -68,5 +68,4 @@ def sqrt(x:float,y:float):
 def calculate(x:float):
     return exponent(x)*XtimesY(7,x)*XtimesY(x,-1)*sqrt(x,x)
    
-x = input("Number of x:")
 print(calculate(x))
