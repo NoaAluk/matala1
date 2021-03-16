@@ -36,12 +36,9 @@ def XtimesY(x:float,y:float):
     if x>0:
         z=y*ln(x)
         return exponent(z)
-    elif x==0 and y==0:
-        return 0
-    elif x==0 and y!=0:
-        return 0
     elif x<0 and y==0:
         return 1
+    else: return 0
   
 
 def sqrt(x:float,y:float):
