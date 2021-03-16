@@ -8,7 +8,7 @@ def ln(x:float):
         yn=yn1
         i+=1
     return yn1
-x=input("ln:")
+
 print(ln(x))
 
 def exponent(x:float):
@@ -31,7 +31,6 @@ def exponent(x:float):
     else:
         return 1
 
-x=input("exp:")
 print(exponent(x))
 
 def XtimesY(x:float,y:float):
@@ -62,8 +61,7 @@ def XtimesY(x:float,y:float):
                 i+=1
             return 1/z1
 
-x=input("XtimesY:")
-y=input("XtimesY2:")
+
 print(XtimesY(x,y))
   
 def sqrt(x:float,y:float):
@@ -74,8 +72,7 @@ def sqrt(x:float,y:float):
     elif y==0 and x==0:
         return 0
 
-x=input("sqrt:")
-y=input("sqrt2:")
+
 print(sqrt(x,y))
 
 def calculate(x:float):
