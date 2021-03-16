@@ -8,7 +8,9 @@ def ln(x:float):
         yn=yn1
         i+=1
     return yn1
-   
+x=input("ln:")
+print(ln(x))
+
 def exponent(x:float):
     if x!=0:
         i=1
@@ -28,7 +30,10 @@ def exponent(x:float):
         return exp1+1
     else:
         return 1
-   
+
+x=input("exp:")
+print(exponent(x))
+
 def XtimesY(x:float,y:float):
     if x>0:
         z=y*ln(x)
@@ -56,6 +61,10 @@ def XtimesY(x:float,y:float):
                 z1=z
                 i+=1
             return 1/z1
+
+x=input("XtimesY:")
+y=input("XtimesY2:")
+print(XtimesY(x,y))
   
 def sqrt(x:float,y:float):
     if y>=0 and x!=0:
@@ -64,6 +73,10 @@ def sqrt(x:float,y:float):
         return 0
     elif y==0 and x==0:
         return 0
+
+x=input("sqrt:")
+y=input("sqrt2:")
+print(sqrt(x,y))
 
 def calculate(x:float):
     return exponent(x)*XtimesY(7,x)*XtimesY(x,-1)*sqrt(x,x)
