@@ -1,4 +1,4 @@
- 
+
 
 def ln(x:float):
     yn=0
