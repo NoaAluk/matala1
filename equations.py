@@ -34,7 +34,7 @@ def exponent(x:float):
 
 def XtimesY(x:float,y:float):
     if x>0:
-        z=y*ln(x)
+        z=y*Ln(x)
         return exponent(z)
     elif x<0 and y==0:
         return 1.0
