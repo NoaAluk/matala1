@@ -1,5 +1,5 @@
 
-def ln(x:float):
+def Ln(x:float):
     yn=x-1.0
     yn1=0.0
     a=yn-yn1
